@@ -28,11 +28,11 @@ public class SplashScreenController {
     private void load() {
         Timeline timeline = new Timeline(
                 new KeyFrame(Duration.ZERO, new KeyValue(progressBar.progressProperty(),0)),
-                new KeyFrame(Duration.seconds(5), new KeyValue(progressBar.progressProperty(),1))
+                new KeyFrame(Duration.seconds(1), new KeyValue(progressBar.progressProperty(),1))
         );
         timeline.play();
 
-        PauseTransition pauseTransition = new PauseTransition(Duration.seconds(5));
+        PauseTransition pauseTransition = new PauseTransition(Duration.seconds(1));
         pauseTransition.setOnFinished(event -> {openLoginForm();});
         pauseTransition.play();
     }
