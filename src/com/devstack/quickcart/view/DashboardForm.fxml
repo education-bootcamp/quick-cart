@@ -113,7 +113,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </AnchorPane>
-      <AnchorPane layoutX="546.0" layoutY="275.0" prefHeight="200.0" prefWidth="260.0" style="-fx-background-color: #1abc9c;">
+      <AnchorPane layoutX="546.0" layoutY="275.0" onMouseClicked="#openActivityFormOnAction" prefHeight="200.0" prefWidth="260.0" style="-fx-background-color: #1abc9c;">
          <children>
             <Label layoutX="53.0" layoutY="155.0" text="Activity Console" textFill="WHITE">
                <font>
@@ -130,16 +130,16 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </AnchorPane>
-      <AnchorPane layoutX="14.0" layoutY="485.0" prefHeight="200.0" prefWidth="260.0" style="-fx-background-color: #1abc9c;">
+      <AnchorPane layoutX="14.0" layoutY="485.0" onMouseClicked="#openPaymentsFormOnAction" prefHeight="200.0" prefWidth="260.0" style="-fx-background-color: #1abc9c;">
          <children>
-            <Label layoutX="48.0" layoutY="155.0" text="Loyalty Programs" textFill="WHITE">
+            <Label layoutX="84.0" layoutY="152.0" text="Payments" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="20.0" />
                </font>
             </Label>
             <ImageView fitHeight="100.0" fitWidth="77.0" layoutX="102.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@images/loyalty.png" />
+                  <Image url="@images/payments.png" />
                </image>
             </ImageView>
          </children>
@@ -147,7 +147,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </AnchorPane>
-      <AnchorPane layoutX="280.0" layoutY="485.0" prefHeight="200.0" prefWidth="260.0" style="-fx-background-color: #1abc9c;">
+      <AnchorPane layoutX="280.0" layoutY="485.0" onMouseClicked="#openSettingsFormOnAction" prefHeight="200.0" prefWidth="260.0" style="-fx-background-color: #1abc9c;">
          <children>
             <Label layoutX="91.0" layoutY="155.0" text="Settings" textFill="WHITE">
                <font>
