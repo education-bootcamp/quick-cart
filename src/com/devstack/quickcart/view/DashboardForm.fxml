@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="696.0" prefWidth="816.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.devstack.quickcart.controller.DashboardFormController">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" text="Dashboard">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="532.0" layoutY="14.0" text="Date : 2025-10-15">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="696.0" layoutY="14.0" text="Time : 10:20:55">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Separator layoutX="676.0" layoutY="14.0" orientation="VERTICAL" prefHeight="33.0" prefWidth="4.0" />
+      <Separator layoutX="14.0" layoutY="46.0" prefHeight="2.0" prefWidth="788.0" />
+      <AnchorPane layoutX="14.0" layoutY="65.0" prefHeight="200.0" prefWidth="260.0" style="-fx-background-color: #1abc9c;">
+         <children>
+            <Label layoutX="22.0" layoutY="155.0" text="Customer management" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="100.0" fitWidth="77.0" layoutX="92.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/customers.png" />
+               </image>
+            </ImageView>
+         </children>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </AnchorPane>
+      <AnchorPane layoutX="280.0" layoutY="65.0" prefHeight="200.0" prefWidth="260.0" style="-fx-background-color: #1abc9c;">
+         <children>
+            <Label layoutX="28.0" layoutY="157.0" text="Product management" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="100.0" fitWidth="77.0" layoutX="78.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/products.png" />
+               </image>
+            </ImageView>
+         </children>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </AnchorPane>
+      <AnchorPane layoutX="546.0" layoutY="65.0" prefHeight="200.0" prefWidth="260.0" style="-fx-background-color: #1abc9c;">
+         <children>
+            <Label layoutX="88.0" layoutY="155.0" text="Statistics" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="100.0" fitWidth="77.0" layoutX="92.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/statistics.png" />
+               </image>
+            </ImageView>
+         </children>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </AnchorPane>
+      <AnchorPane layoutX="14.0" layoutY="275.0" prefHeight="200.0" prefWidth="260.0" style="-fx-background-color: #1abc9c;">
+         <children>
+            <Label layoutX="47.0" layoutY="155.0" text="User Management" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="100.0" fitWidth="77.0" layoutX="92.0" layoutY="76.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/user.png" />
+               </image>
+            </ImageView>
+         </children>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </AnchorPane>
+      <AnchorPane layoutX="280.0" layoutY="275.0" prefHeight="200.0" prefWidth="260.0" style="-fx-background-color: #1abc9c;">
+         <children>
+            <Label layoutX="49.0" layoutY="155.0" text="Order Management" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="100.0" fitWidth="77.0" layoutX="94.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/orders.png" />
+               </image>
+            </ImageView>
+         </children>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </AnchorPane>
+      <AnchorPane layoutX="546.0" layoutY="275.0" prefHeight="200.0" prefWidth="260.0" style="-fx-background-color: #1abc9c;">
+         <children>
+            <Label layoutX="53.0" layoutY="155.0" text="Activity Console" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="100.0" fitWidth="77.0" layoutX="91.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/activity.png" />
+               </image>
+            </ImageView>
+         </children>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </AnchorPane>
+      <AnchorPane layoutX="14.0" layoutY="485.0" prefHeight="200.0" prefWidth="260.0" style="-fx-background-color: #1abc9c;">
+         <children>
+            <Label layoutX="48.0" layoutY="155.0" text="Loyalty Programs" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="100.0" fitWidth="77.0" layoutX="102.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/loyalty.png" />
+               </image>
+            </ImageView>
+         </children>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </AnchorPane>
+      <AnchorPane layoutX="280.0" layoutY="485.0" prefHeight="200.0" prefWidth="260.0" style="-fx-background-color: #1abc9c;">
+         <children>
+            <Label layoutX="91.0" layoutY="155.0" text="Settings" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="100.0" fitWidth="77.0" layoutX="91.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/settings.png" />
+               </image>
+            </ImageView>
+         </children>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </AnchorPane>
+   </children>
+</AnchorPane>
