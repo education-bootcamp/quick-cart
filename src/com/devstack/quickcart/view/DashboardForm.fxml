@@ -9,7 +9,7 @@
 <?import javafx.scene.text.Font?>
 
 
-<AnchorPane prefHeight="696.0" prefWidth="816.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.devstack.quickcart.controller.DashboardFormController">
+<AnchorPane fx:id="container" prefHeight="696.0" prefWidth="816.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.devstack.quickcart.controller.DashboardFormController">
    <children>
       <Label layoutX="14.0" layoutY="14.0" text="Dashboard">
          <font>
@@ -28,7 +28,7 @@
       </Label>
       <Separator layoutX="676.0" layoutY="14.0" orientation="VERTICAL" prefHeight="33.0" prefWidth="4.0" />
       <Separator layoutX="14.0" layoutY="46.0" prefHeight="2.0" prefWidth="788.0" />
-      <AnchorPane layoutX="14.0" layoutY="65.0" prefHeight="200.0" prefWidth="260.0" style="-fx-background-color: #1abc9c;">
+      <AnchorPane layoutX="14.0" layoutY="65.0" onMouseClicked="#openCustomerFormOnAction" prefHeight="200.0" prefWidth="260.0" style="-fx-background-color: #1abc9c;">
          <children>
             <Label layoutX="22.0" layoutY="155.0" text="Customer management" textFill="WHITE">
                <font>
@@ -45,7 +45,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </AnchorPane>
-      <AnchorPane layoutX="280.0" layoutY="65.0" prefHeight="200.0" prefWidth="260.0" style="-fx-background-color: #1abc9c;">
+      <AnchorPane layoutX="280.0" layoutY="65.0" onMouseClicked="#openProductFormOnAction" prefHeight="200.0" prefWidth="260.0" style="-fx-background-color: #1abc9c;">
          <children>
             <Label layoutX="28.0" layoutY="157.0" text="Product management" textFill="WHITE">
                <font>

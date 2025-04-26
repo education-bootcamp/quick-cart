@@ -10,11 +10,11 @@ import javafx.stage.Stage;
 import java.io.IOException;
 import java.net.URL;
 
-public class DashboardFormController {
+public class ProductFormController {
     public AnchorPane container;
 
-    public void openCustomerFormOnAction(MouseEvent mouseEvent) {
-        setUi("CustomerForm");
+    public void backOnAction(MouseEvent mouseEvent) {
+        setUi("DashboardForm");
     }
     private void setUi(String location){
         URL resource =
@@ -31,7 +31,4 @@ public class DashboardFormController {
         }
     }
 
-    public void openProductFormOnAction(MouseEvent mouseEvent) {
-        setUi("ProductForm");
-    }
 }
