@@ -36,7 +36,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Hyperlink layoutX="311.0" layoutY="157.0" onAction="#openForgotPasswordOnAction" text="Forgot password?" underline="true" />
+      <Hyperlink layoutX="312.0" layoutY="158.0" onAction="#openForgotPasswordOnAction" text="Forgot password?" underline="true" />
       <CheckBox layoutX="15.0" layoutY="161.0" mnemonicParsing="false" text="Show Password" />
    </children>
 </AnchorPane>

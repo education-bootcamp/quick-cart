@@ -10,7 +10,7 @@ import javafx.stage.Stage;
 import java.io.IOException;
 import java.net.URL;
 
-public class ForgotPasswordFormController {
+public class ConfirmEmailFormController {
     public AnchorPane container;
 
     public void openLoginFormOnAction(ActionEvent actionEvent) {
@@ -32,7 +32,7 @@ public class ForgotPasswordFormController {
         }
     }
 
-    public void openConfirmEmailFormOnAction(ActionEvent actionEvent) {
-        setUi("ConfirmEmailForm");
+    public void openResetPasswordFormOnAction(ActionEvent actionEvent) {
+        setUi("ResetPasswordForm");
     }
 }

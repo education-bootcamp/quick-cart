@@ -10,7 +10,7 @@ import javafx.stage.Stage;
 import java.io.IOException;
 import java.net.URL;
 
-public class ForgotPasswordFormController {
+public class ResetPasswordFormController {
     public AnchorPane container;
 
     public void openLoginFormOnAction(ActionEvent actionEvent) {
@@ -26,13 +26,8 @@ public class ForgotPasswordFormController {
             Scene scene = new Scene(parent);
             Stage stage = (Stage) container.getScene().getWindow();
             stage.setScene(scene);
-            stage.setTitle("Login Form");
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-    }
-
-    public void openConfirmEmailFormOnAction(ActionEvent actionEvent) {
-        setUi("ConfirmEmailForm");
     }
 }
