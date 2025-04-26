@@ -62,7 +62,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </AnchorPane>
-      <AnchorPane layoutX="546.0" layoutY="65.0" prefHeight="200.0" prefWidth="260.0" style="-fx-background-color: #1abc9c;">
+      <AnchorPane layoutX="546.0" layoutY="65.0" onMouseClicked="#openStatisticsFormOnAction" prefHeight="200.0" prefWidth="260.0" style="-fx-background-color: #1abc9c;">
          <children>
             <Label layoutX="88.0" layoutY="155.0" text="Statistics" textFill="WHITE">
                <font>
@@ -79,7 +79,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </AnchorPane>
-      <AnchorPane layoutX="14.0" layoutY="275.0" prefHeight="200.0" prefWidth="260.0" style="-fx-background-color: #1abc9c;">
+      <AnchorPane layoutX="14.0" layoutY="275.0" onMouseClicked="#openUserFormOnAction" prefHeight="200.0" prefWidth="260.0" style="-fx-background-color: #1abc9c;">
          <children>
             <Label layoutX="47.0" layoutY="155.0" text="User Management" textFill="WHITE">
                <font>
@@ -96,7 +96,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </AnchorPane>
-      <AnchorPane layoutX="280.0" layoutY="275.0" prefHeight="200.0" prefWidth="260.0" style="-fx-background-color: #1abc9c;">
+      <AnchorPane layoutX="280.0" layoutY="275.0" onMouseClicked="#openMakeOrderFormOnAction" prefHeight="200.0" prefWidth="260.0" style="-fx-background-color: #1abc9c;">
          <children>
             <Label layoutX="49.0" layoutY="155.0" text="Order Management" textFill="WHITE">
                <font>

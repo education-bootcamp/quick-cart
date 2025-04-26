@@ -10,15 +10,15 @@ import javafx.stage.Stage;
 import java.io.IOException;
 import java.net.URL;
 
-public class DashboardFormController {
+public class StatisticsFormController {
     public AnchorPane container;
 
-    public void openCustomerFormOnAction(MouseEvent mouseEvent) {
-        setUi("CustomerForm");
+    public void backOnAction(MouseEvent mouseEvent) {
+        setUi("DashboardForm");
     }
-    private void setUi(String location){
+    private void setUi(String location) {
         URL resource =
-                getClass().getResource("../view/"+location+".fxml");
+                getClass().getResource("../view/" + location + ".fxml");
         Parent parent = null;
         try {
             parent = FXMLLoader.load(resource);
@@ -30,20 +30,7 @@ public class DashboardFormController {
             throw new RuntimeException(e);
         }
     }
-
-    public void openProductFormOnAction(MouseEvent mouseEvent) {
-        setUi("ProductForm");
-    }
-
-    public void openStatisticsFormOnAction(MouseEvent mouseEvent) {
-        setUi("StatisticsForm");
-    }
-
-    public void openUserFormOnAction(MouseEvent mouseEvent) {
-        setUi("UserForm");
-    }
-
-    public void openMakeOrderFormOnAction(MouseEvent mouseEvent) {
-        setUi("MakeOrderForm");
+    public void openOrderListViewFormOnAction(MouseEvent mouseEvent) {
+        setUi("OrderListForm");
     }
 }
