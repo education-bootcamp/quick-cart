@@ -56,5 +56,6 @@ public class DashboardFormController {
     }
 
     public void openPaymentsFormOnAction(MouseEvent mouseEvent) {
+        setUi("PaymentsForm");
     }
 }
